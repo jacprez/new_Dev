@@ -1,0 +1,40 @@
+.section1 {
+	border: 2px solid gray;
+	height: 400px;
+	padding: 5px;
+	display: grid;
+	grid-template-rows: repeat(16, 1fr);
+	grid-template-columns: repeat(16, 1fr);
+	grid-gap: 1px;
+	grid-column-gap:10px;
+  	grid-row-gap: 20px;
+	
+}
+
+
+
+.a {
+	background-color: orange;
+	grid-area: a;
+
+}
+
+.b {
+	background-color: wheat;
+	 grid-area: b;
+}
+.c {
+	background-color: brown;
+		grid-area: c;
+
+}
+
+.section2 {
+	border: 2px solid gray;
+	height: 600px;
+	padding: 5px;
+	display: grid;
+grid-template-columns: 12px 12px 12px;
+grid-template-rows: 12px 12px 12px;
+	grid-gap: 1px;
+}

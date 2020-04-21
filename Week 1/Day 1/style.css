@@ -1,0 +1,18 @@
+div {
+	height: 100px;
+}
+
+#d1 {
+	box-sizing: border-box;
+	float: left;
+	width: 50%;
+	background-color: red;
+	border: 10px solid black;
+}
+
+#d2 {
+	float: right;
+	width: 50%;
+	background-color: blue;
+	/*border: 5px solid blue;*/
+}
